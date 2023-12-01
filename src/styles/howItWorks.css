@@ -1,0 +1,24 @@
+#phone-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#phone-img{
+    grid-column: 2;
+    grid-row: 1 / span 2
+}
+
+@media(max-width: 800px ){
+    #phone-img{
+        display: none;
+    }
+
+    #phone-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

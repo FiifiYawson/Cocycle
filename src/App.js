@@ -1,25 +1,98 @@
-import logo from './logo.svg';
+import React, { useState } from "react"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ThemeProvider from "@mui/material/styles/ThemeProvider"
+import createTheme from "@mui/material/styles/createTheme"
+import PageLayout from "./PageLayouts/PageLayout";
+import routes from "./utils/routes";
 import './App.css';
 
+
 function App() {
+  const [theme, setTheme] = useState(themeCreater)
+
+  const changeTheme = () => {
+    setTheme(themeCreater)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <themeContext.Provider value={changeTheme}>
+        <Router>
+          <Routes>
+            <Route element={<PageLayout />} >
+              {routes.map(({ path, element }, index) => <Route path={path} element={element} key={index} />)}
+            </Route>
+          </Routes>
+        </Router>
+      </themeContext.Provider>
+    </ThemeProvider>
   );
 }
+
+
+
+const getCssVarible = (variable, element) => {
+  let root
+
+  if (element) {
+    root = getComputedStyle(document.querySelector(element))
+  } else {
+    root = getComputedStyle(document.querySelector(":root"))
+  }
+
+  return root.getPropertyValue(variable)
+}
+
+
+const themeCreater = () => {
+  return createTheme({
+    palette: {
+      primary: {
+        main: getCssVarible("--primary-color"),
+        light: getCssVarible("--primary-light"),
+      }
+    },
+    typography: {
+      h1: {
+        fontSize: "50px",
+        fontWeight: "700",
+      },
+      h2: {
+        fontSize: "40px",
+        fontWeight: "700"
+      },
+      h3: {
+        fontSize: "30px",
+        fontWeight: "700"
+      },
+      h4: {
+        fontSize: "25px",
+        fontWeight: "700",
+      },
+      h5: {
+        fontSize: "20px",
+        fontWeight: "700"
+      },
+      h6: {
+        fontSize: "18px",
+        fontWeight: "700"
+      },
+      body1: {
+        fontSize: "15px",
+        fontWeight: "400"
+      },
+      body2: {
+        fontSize: "12px",
+        fontWeight: "400"
+      },
+      subtitle1: {
+        fontSize: "10px",
+        fontWeight: "400"
+      }
+    }
+  })
+}
+
+const themeContext = React.createContext()
 
 export default App;
