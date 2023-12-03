@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adbd6a19.css",
+    "main.js": "/static/js/main.a4d6a05f.js",
+    "static/js/787.346efeb9.chunk.js": "/static/js/787.346efeb9.chunk.js",
+    "static/media/cardBg_3.png": "/static/media/cardBg_3.24fd49fe7910615199ba.png",
+    "static/media/cardBg_2.png": "/static/media/cardBg_2.21f9a56a13dddad5f1f0.png",
+    "static/media/Bg-woman.png": "/static/media/Bg-woman.5cb164c6027439e3fb2c.png",
+    "static/media/honored_hero.png": "/static/media/honored_hero.29026d9003c4305d0fef.png",
+    "static/media/Mobile Template.png": "/static/media/Mobile Template.cfe16d688f14f23010ba.png",
+    "static/media/cardBg_1.png": "/static/media/cardBg_1.ef53ca156bb804ca5b71.png",
+    "static/media/iPhone 13 Mockup.png": "/static/media/iPhone 13 Mockup.7c7efe57c28723260e35.png",
+    "static/media/iPhone 12.png": "/static/media/iPhone 12.8fd7be533bed9ab05c67.png",
+    "static/media/Kenyon_College.png": "/static/media/Kenyon_College.41ef881f80ab3fac892d.png",
+    "static/media/Denison.png": "/static/media/Denison.1df728be0971fce4ee42.png",
+    "static/media/ohiostate.png": "/static/media/ohiostate.c44e4ff7c887c24ccb78.png",
+    "static/media/Cocycle.svg": "/static/media/Cocycle.3020ebc1745c80ba7b6c57c24c31d4fd.svg",
+    "static/media/monitor.svg": "/static/media/monitor.9df9741a87fd03d46631ae69dab47e6a.svg",
+    "static/media/Apple_store.svg": "/static/media/Apple_store.61b65e438bacbe394337cb4ce3645806.svg",
+    "static/media/task.svg": "/static/media/task.90e96a33e17ca7545bdc2f04432b7fe3.svg",
+    "static/media/search.svg": "/static/media/search.c40632665cec8cc27778ed170175410b.svg",
+    "static/media/telegram_white.svg": "/static/media/telegram_white.9b33fa19407a12684554549eae6d5c4f.svg",
+    "static/media/donate.svg": "/static/media/donate.152b435824d45bdc8e648b38df5b373b.svg",
+    "static/media/check.svg": "/static/media/check.36023f343134aeb8b7ba1d10aa98eb47.svg",
+    "static/media/Google_play_black.svg": "/static/media/Google_play_black.56900fd24025ee381ad5588f1ff17a1c.svg",
+    "static/media/Google_play_white.svg": "/static/media/Google_play_white.3874dd8f9b49f031eb7ce4230c4c6c5a.svg",
+    "static/media/tick-circle-white.svg": "/static/media/tick-circle-white.790f154870942df8d48660f0787b89e1.svg",
+    "static/media/tick-circle.svg": "/static/media/tick-circle.6a7e361da7f44267a85786285e4f5f0f.svg",
+    "index.html": "/index.html",
+    "static/media/Leaf.svg": "/static/media/Leaf.d525f5d6ff1670ba23abcfacd589383c.svg",
+    "main.adbd6a19.css.map": "/static/css/main.adbd6a19.css.map",
+    "main.a4d6a05f.js.map": "/static/js/main.a4d6a05f.js.map",
+    "787.346efeb9.chunk.js.map": "/static/js/787.346efeb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adbd6a19.css",
+    "static/js/main.a4d6a05f.js"
+  ]
+}
