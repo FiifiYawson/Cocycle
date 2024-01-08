@@ -14,11 +14,25 @@
 }
 
 @media(max-width: 800px ){
-    #phone-img{
-        display: none;
+    #phone-grid{
+        display: flex;
+        flex-direction: column;
     }
 
-    #phone-grid{
-        grid-template-columns: repeat(2, 1fr);
+    #phone-grid .grid-item{
+        order:2;
+        align-items: flex-start;
+        text-align: left;
     }
+    
+    #phone-img{
+        display: block;
+        order: 1;
+    }
+
+    #phone-grid div{
+        text-align: left;
+        align-items: flex-start;
+    }
+    
 }

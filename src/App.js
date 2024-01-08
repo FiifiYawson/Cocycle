@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ThemeProvider from "@mui/material/styles/ThemeProvider"
 import createTheme from "@mui/material/styles/createTheme"
 import PageLayout from "./PageLayouts/PageLayout";
@@ -53,6 +53,7 @@ const themeCreater = () => {
       }
     },
     typography: {
+      fontFamily: "inter",
       h1: {
         fontSize: "50px",
         fontWeight: "700",

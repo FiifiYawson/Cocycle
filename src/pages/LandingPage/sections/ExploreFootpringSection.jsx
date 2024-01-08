@@ -35,11 +35,7 @@ function ExploreFootpringSection() {
                 <GooglePlayLinks />
             </div>
 
-            <img
-                src={phone}
-                alt=""
-                className="translate-x-[50px] sm:hidden md:inline"
-            />
+            <img src={phone} alt="" className="translate-x-[50px] md:inline" />
         </div>
     )
 }

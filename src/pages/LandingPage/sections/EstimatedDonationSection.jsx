@@ -50,7 +50,9 @@ function TableLayout({ name, values }) {
                                 <Typography variant="body1">{value}</Typography>
                             </div>
                             <div className="flex-1">
-                                <Typography variant="body1">{`$${values[value][0]} - $${values[value][1]}`}</Typography>
+                                <Typography
+                                    variant="body1"
+                                    className="whitespace-nowrap">{`$${values[value][0]} - $${values[value][1]}`}</Typography>
                             </div>
                         </div>
                     ))}

@@ -20,7 +20,9 @@ function CustomButton({ name, link, width, styles }) {
             sx={{
                 width,
             }}>
-            <Typography variant="body1">{name}</Typography>
+            <Typography variant="body1" component="span">
+                {name}
+            </Typography>
         </StyledButton>
     )
 }

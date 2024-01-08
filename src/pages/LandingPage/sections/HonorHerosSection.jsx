@@ -19,7 +19,9 @@ function HonorHerosSection() {
                 </Typography>
                 <Stack gap="10px" className="my-[30px]">
                     {sections.map((section, index) => (
-                        <div className="text-text-grey px-[15px] border-l-[3px] border-primary border-solid rounded-sm">
+                        <div
+                            key={index}
+                            className="text-text-grey px-[15px] border-l-[3px] border-primary border-solid rounded-sm">
                             {section}
                         </div>
                     ))}
