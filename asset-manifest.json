@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Cocycle/static/css/main.adbd6a19.css",
-    "main.js": "/Cocycle/static/js/main.8542c2d7.js",
+    "main.css": "/Cocycle/static/css/main.9c955387.css",
+    "main.js": "/Cocycle/static/js/main.c77bbcea.js",
     "static/js/787.346efeb9.chunk.js": "/Cocycle/static/js/787.346efeb9.chunk.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/Cocycle/static/media/Inter-VariableFont_slnt,wght.853e01975d2783d9fa29.ttf",
     "static/media/cardBg_3.png": "/Cocycle/static/media/cardBg_3.24fd49fe7910615199ba.png",
     "static/media/cardBg_2.png": "/Cocycle/static/media/cardBg_2.21f9a56a13dddad5f1f0.png",
     "static/media/Bg-woman.png": "/Cocycle/static/media/Bg-woman.5cb164c6027439e3fb2c.png",
@@ -15,12 +16,13 @@
     "static/media/Denison.png": "/Cocycle/static/media/Denison.1df728be0971fce4ee42.png",
     "static/media/ohiostate.png": "/Cocycle/static/media/ohiostate.c44e4ff7c887c24ccb78.png",
     "static/media/Cocycle.svg": "/Cocycle/static/media/Cocycle.3020ebc1745c80ba7b6c57c24c31d4fd.svg",
-    "static/media/monitor.svg": "/Cocycle/static/media/monitor.9df9741a87fd03d46631ae69dab47e6a.svg",
+    "static/media/monitor.svg": "/Cocycle/static/media/monitor.10b3ecdc38308fcb3899a4c4c2c8e026.svg",
+    "static/media/Apple_store_black.svg": "/Cocycle/static/media/Apple_store_black.697017d6336481dc620d50bdc85c3571.svg",
     "static/media/Apple_store.svg": "/Cocycle/static/media/Apple_store.61b65e438bacbe394337cb4ce3645806.svg",
-    "static/media/task.svg": "/Cocycle/static/media/task.90e96a33e17ca7545bdc2f04432b7fe3.svg",
-    "static/media/search.svg": "/Cocycle/static/media/search.c40632665cec8cc27778ed170175410b.svg",
+    "static/media/task.svg": "/Cocycle/static/media/task.bdf48b63682e55be722af380010f4572.svg",
+    "static/media/search.svg": "/Cocycle/static/media/search.14b5b10b01bf0a018a0cf429e5b4fb17.svg",
     "static/media/telegram_white.svg": "/Cocycle/static/media/telegram_white.9b33fa19407a12684554549eae6d5c4f.svg",
-    "static/media/donate.svg": "/Cocycle/static/media/donate.152b435824d45bdc8e648b38df5b373b.svg",
+    "static/media/donate.svg": "/Cocycle/static/media/donate.edc3fd641c4e347fdab87e019e3e0d3f.svg",
     "static/media/check.svg": "/Cocycle/static/media/check.36023f343134aeb8b7ba1d10aa98eb47.svg",
     "static/media/Google_play_black.svg": "/Cocycle/static/media/Google_play_black.56900fd24025ee381ad5588f1ff17a1c.svg",
     "static/media/Google_play_white.svg": "/Cocycle/static/media/Google_play_white.3874dd8f9b49f031eb7ce4230c4c6c5a.svg",
@@ -28,12 +30,12 @@
     "index.html": "/Cocycle/index.html",
     "static/media/tick-circle.svg": "/Cocycle/static/media/tick-circle.6a7e361da7f44267a85786285e4f5f0f.svg",
     "static/media/Leaf.svg": "/Cocycle/static/media/Leaf.d525f5d6ff1670ba23abcfacd589383c.svg",
-    "main.adbd6a19.css.map": "/Cocycle/static/css/main.adbd6a19.css.map",
-    "main.8542c2d7.js.map": "/Cocycle/static/js/main.8542c2d7.js.map",
+    "main.9c955387.css.map": "/Cocycle/static/css/main.9c955387.css.map",
+    "main.c77bbcea.js.map": "/Cocycle/static/js/main.c77bbcea.js.map",
     "787.346efeb9.chunk.js.map": "/Cocycle/static/js/787.346efeb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adbd6a19.css",
-    "static/js/main.8542c2d7.js"
+    "static/css/main.9c955387.css",
+    "static/js/main.c77bbcea.js"
   ]
 }
